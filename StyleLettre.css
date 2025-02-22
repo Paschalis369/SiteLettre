@@ -1,0 +1,24 @@
+body {
+    background-image: url(./PhotoLettre/PhotoLettre1.avif);
+    background-size: 100% 100%; /* Ajuste l’image à toute la page sans perdre de détails */
+    background-position: top center; /* Centre l’image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    image-rendering: crisp-edges; /* Améliore la netteté sur certains navigateurs */
+}
+
+#pre1{
+    position: absolute;
+    top: 32px; /* Ajuste selon ton besoin */
+    left: 90px; /* Ajuste pour déplacer plus à droite */
+    font-family: 'Great Vibes', cursive;
+    font-size: 21.5px;
+    color: #2C3E50;
+    background: rgba(255, 255, 255, 0.24); /* Fond blanc semi-transparent */
+    padding: 0;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: justify;
+    line-height: 1.6; /* Aération du texte */
+}
+
